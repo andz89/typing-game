@@ -1,0 +1,42 @@
+@import "color.scss";
+@import "~bootstrap/scss/bootstrap";
+
+
+.cs-flex{
+    display: flex;
+    flex-direction: column;
+}
+.cs-width{
+    width: 100%;
+    max-width: 530px;
+    margin: auto;
+}
+
+.border-top-radius{
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.border-bottom-radius{
+
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#reset-btn{
+    display: none;
+}
+
+
+
+#start-signal{
+    font-size: 50px;
+    padding: 0;
+    margin-top: 0;
+    display: none;
+}
+
+.div-time, .div-score {
+    display: none;
+}

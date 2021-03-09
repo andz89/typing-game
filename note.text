@@ -1,0 +1,8 @@
+install webpack:
+npm init -y
+npm install webpack webpack-cli --save-dev
+
+//loaders
+npm install --save-dev style-loader
+npm install --save-dev css-loader
+npm install sass-loader sass webpack --save-dev

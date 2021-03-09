@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="text-center p-4 bg-dark-1">
+
+        <header class="container mt-5 py-3 bg-secondary text-light border-top-radius cs-width">
+            <h1>FlashType</h1>
+        </header>
+        <main class="container cs-flex bg-dark p-5 text-light cs-width border-bottom-radius ">
+
+              <!-- Word & Input -->
+            <p class="lead">Type The Given Word Within
+                <span class="text-success" id="seconds">5</span> Seconds:</p>
+            <h2 class="display-2 mb-3" id="current-word">Typing Game</h2>
+           
+            <input type="text" class="form-control form-control-lg" placeholder="" id="word-input" autocomplete="off">
+            <div class="position-relative">
+              <div class="position-absolute container">
+                <h4 class="mt-3" id="message"></h4>
+              </div>
+            </div>
+            <div class="position-relative mt-4">
+              <div class="position-absolute container">
+                <div class="btn btn-sm btn-primary " id="start-btn">
+                  Start Game
+                </div>
+              </div>
+            </div>
+            <div class="position-relative mt-0 mb-3">
+              <div class="position-absolute container">
+                <h1 id="start-signal"></h1>
+              </div>
+            </div>
+            <div class="position-relative ">
+              <div class="position-absolute container">
+                <div class="btn btn-sm btn-danger reset-btn" id="reset-btn">
+                  Play Again
+                </div>
+              </div>
+            </div>
+        <br>
+        <br>
+
+
+              <!-- Time & Score Columns -->
+        <div class="position-relative text-center mb-5 cs-flex ">
+          <div class="position-absolute container">
+            <div class="div-time">
+              <h5 >Time Left:
+                <span id="time">0</span>
+              </h5>
+            </div>
+            <div class="div-score">
+              <h5>Score:
+                <span id="score">0</span>
+              </h5>
+            </div>
+            <!-- <div >
+              <h3>High Score:
+                <span id="highscore">0</span>
+              </h3>
+            </div> -->
+          </div>
+            
+          </div>
+       
+
+        <!-- Instructions -->
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="card card-body bg-secondary text-white">
+                <h5>Instructions</h5>
+                <p>Type each word in the given amount of seconds to score. To play click start game button or press enter.</p>
+                </div>
+            </div>
+            </div>
+
+        </main>
+
+ 
+  
+
+    <script src="bundled.js"></script>
+</body>
+</html>
